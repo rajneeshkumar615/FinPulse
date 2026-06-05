@@ -189,7 +189,10 @@ JWT_SECRET=your_super_secret_key
 cd backend && npm install
 
 # Frontend
-cd ../frontend && npm install
+cd frontend && npm install
+
+# Dashboard (Admin Panel)
+cd dashboard && npm install
 ```
 
 ### 4. Run the Application
@@ -200,9 +203,14 @@ cd backend && npm run dev
 
 # Terminal 2 — Frontend
 cd frontend && npm start
+
+# Terminal 3 — Dashboard (Admin Panel)
+cd dashboard && npm start
 ```
 
-App runs at **http://localhost:3000** · API at **http://localhost:5000**
+App runs at http://localhost:3000 (Frontend) ·
+Dashboard runs at http://localhost:3001 (Admin Panel) ·
+API runs at http://localhost:5000 (Backend)
 
 ---
 
