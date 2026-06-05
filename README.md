@@ -122,7 +122,7 @@ Built as a production-inspired full-stack MERN application, this project demonst
 ```
 finpulse/
 │
-├── frontend/                   # React application
+├── frontend/                   # React application (Main user UI)
 │   ├── public/
 │   └── src/
 │       ├── components/         # Reusable UI components (Navbar, OrderCard, etc.)
@@ -138,6 +138,15 @@ finpulse/
 │   ├── middleware/             # Auth middleware (JWT verification)
 │   ├── data/                   # Mock/seed stock data
 │   └── server.js               # App entry point
+│
+├── dashboard/                  # Admin / internal dashboard (management panel)
+│   ├── public/
+│   └── src/
+│       ├── components/         # Dashboard UI components (Charts, Tables, etc.)
+│       ├── pages/              # Admin views (Overview, Orders, Users, Analytics)
+│       ├── services/           # API integrations for admin data
+│       ├── context/            # State management (if used)
+│       └── App.js
 │
 ├── .env.example
 ├── .gitignore
